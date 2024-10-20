@@ -74,6 +74,8 @@
 @media (max-width:620px) {
     .input-box{
         flex-direction: column;
+        justify-content: start;
+        align-items: start;
         gap: 1.5rem;
         margin-right: 2rem;
         padding: 11px 18px;
@@ -83,6 +85,7 @@
     }
     .input-box input{
         font-size: 12px;
+        width: 100%;
     }
     .input-box input::-webkit-calendar-picker-indicator{
         background-size: 20px;
